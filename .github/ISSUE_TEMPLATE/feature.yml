@@ -1,5 +1,5 @@
 name: Feature suggestion
-description: Feature suggestion
+description: Suggestion for a new or changed feature 
 labels: ["enhancement"]
 body:
   - type: input
