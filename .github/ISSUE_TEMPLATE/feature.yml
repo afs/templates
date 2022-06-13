@@ -13,15 +13,14 @@ body:
     id: suggestion
     attributes:
       label: Suggestion
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what happened.
+      placeholder: Tell us about the suggestion.
     validations:
       required: true
   - type: dropdown
     id: contributor
     attributes:
       label: Are you interested in contributing a solution yourself?
-      description: We welcome your feature request. Let us know if you would like to get involved in actually contributing a fix yourself. We'd be happy to help you get started.
+      description: We welcome your feature request. Let us know if you would like to get involved in contributing a pull request yourself.
       options:
         - 'Yes'
         - 'No'
