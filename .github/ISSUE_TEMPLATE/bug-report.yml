@@ -1,6 +1,7 @@
+## Licensed under the terms of http://www.apache.org/licenses/LICENSE-2.0
+
 name: "Bug Report"
 description: "File a bug report"
-title: "[Bug]: "
 labels: ["bug"]
 body:
   - type: markdown
@@ -22,15 +23,11 @@ body:
       placeholder: Tell us what happened.
     validations:
       required: true
-  - type: checkboxes
-    id: operating-systems
+  - type: textarea
+    id: environment
     attributes:
       label: Which environment is running?
-      options:
-        - label: macOS
-        - label: Windows
-        - label: Linux
-        - label: other
+      description: Operating system, Java version, ...
   - type: textarea
     id: output
     attributes:
