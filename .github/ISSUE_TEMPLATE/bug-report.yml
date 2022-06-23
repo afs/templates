@@ -24,16 +24,16 @@ body:
     validations:
       required: true
   - type: textarea
-    id: environment
-    attributes:
-      label: Which environment is running?
-      description: Operating system, Java version, ...
-  - type: textarea
     id: output
     attributes:
       label: Relevant output and stacktrace
       description: Please copy and paste any relevant output. This will be automatically formatted into code, so no need for backticks.
       render: shell
+  - type: textarea
+    id: environment
+    attributes:
+      label: Which environment is running?
+      description: Operating system, Java version, ...
   - type: dropdown
     id: contributor
     attributes:
